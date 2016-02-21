@@ -1,0 +1,324 @@
+0000.000 (0) Opened log file at time: Sun, 21 Feb 2016 02:29:42 +0000 on http://localhost:8888/MirabelleMakeup
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.6.10 (Darwin Erikas-MacBook-Pro.local 14.5.0 Darwin Kernel Version 14.5.0: Wed Jul 29 02:26:53 PDT 2015; root:xnu-2782.40.9~1/RELEASE_X86_64 x86_64) MySQL: 5.5.42 Server: Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 37.4M | 37.8M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 22918.1 Mb
+0000.008 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.017 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.023 (0) Set semaphore last lock (fd) time to 2016-02-21 02:29:42
+0000.025 (0) Semaphore lock (fd) complete
+0000.031 (0) Backup run: resumption=0, nonce=206d5c7ab381, begun at=1456021782 (0s ago), job type=backup
+0000.034 (0) Scheduling a resumption (1) after 300 seconds (1456022082) in case this run gets aborted
+0000.049 (0) Checking if we have a zip executable available
+0000.051 (0) Testing: /usr/bin/zip
+0000.056 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.058 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.060 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.062 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=128) (out=105) (deflated 18%)
+0000.064 (0) Output: total bytes=128, compressed=105 -> 18% savings
+0000.071 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=135) (out=111) (deflated 18%)
+0000.074 (0) Output: total bytes=263, compressed=216 -> 18% savings
+0000.086 (0) Working binary zip found: /usr/bin/zip
+0000.090 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.092 (0) Creation of backups of directories: beginning
+0000.099 (0) Beginning creation of dump of plugins (split every: 400 Mb)
+0000.133 (0) Total entities for the zip file: 194 directories, 1160 files (0 skipped as non-modified), 18.4 Mb
+0000.138 (0) Zip: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-plugins.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0000.142 (0) Zip: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-plugins.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0000.147 (0) Zip: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-plugins.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0000.151 (0) Zip: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-plugins.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0000.155 (0) Zip: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-plugins.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0000.157 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (16.1 Mb, 1160 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0000.921 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-plugins.zip.tmp: size is now: 4.90 Mb
+0000.929 (0) Zip: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-plugins.zip.tmp: 600 files added (on-disk size: 4993.1 Kb)
+0000.934 (0) Zip: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-plugins.zip.tmp: 700 files added (on-disk size: 4993.1 Kb)
+0000.940 (0) Zip: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-plugins.zip.tmp: 800 files added (on-disk size: 4993.1 Kb)
+0000.945 (0) Zip: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-plugins.zip.tmp: 900 files added (on-disk size: 4993.1 Kb)
+0000.950 (0) Zip: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-plugins.zip.tmp: 1000 files added (on-disk size: 4993.1 Kb)
+0000.953 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (1.9 Mb, 1160 files batched, 501 (1002) added so far); re-opening (prior size: 4993.1 Kb)
+0001.069 (0) Zip: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-plugins.zip.tmp: 1100 files added (on-disk size: 5702.7 Kb)
+0001.201 (0) Created plugins zip (0) - 5895.9 Kb in 1.1 s (5364.4 Kb/s) (SHA1 checksum: b0e1bd81509655257b206d6118d2b175afb2d8ff)
+0001.211 (0) Beginning creation of dump of themes (split every: 400 Mb)
+0001.243 (0) Total entities for the zip file: 71 directories, 652 files (0 skipped as non-modified), 26.8 Mb
+0001.249 (0) Zip: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-themes.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0001.257 (0) Zip: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-themes.zip.tmp: 200 files added (on-disk size: 0 Kb)
+0001.263 (0) Zip: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-themes.zip.tmp: 300 files added (on-disk size: 0 Kb)
+0001.270 (0) Zip: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-themes.zip.tmp: 400 files added (on-disk size: 0 Kb)
+0001.275 (0) Zip: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-themes.zip.tmp: 500 files added (on-disk size: 0 Kb)
+0001.277 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 500 files added on this batch (24.1 Mb, 652 files batched, 501 (501) added so far); re-opening (prior size: 0 Kb)
+0002.365 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-themes.zip.tmp: size is now: 8.80 Mb
+0002.381 (0) Zip: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-themes.zip.tmp: 600 files added (on-disk size: 9047 Kb)
+0002.470 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-themes.zip.tmp: size is now: 10.70 Mb
+0002.571 (0) Created themes zip (0) - 10970.5 Kb in 1.4 s (8097.5 Kb/s) (SHA1 checksum: dfc0b968443adcbe6be4196fe5c16dd88c32dd7a)
+0002.576 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone
+0002.579 (0) Looking for candidates to back up in: /Applications/MAMP/htdocs/MirabelleMakeup/wp-content/uploads
+0002.581 (0) finding files: 2016: adding to list (1)
+0002.583 (0) finding files: et_temp: adding to list (2)
+0002.586 (0) Beginning creation of dump of uploads (split every: 400 Mb)
+0002.595 (0) Total entities for the zip file: 3 directories, 192 files (0 skipped as non-modified), 16.1 Mb
+0002.600 (0) Zip: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-uploads.zip.tmp: 100 files added (on-disk size: 0 Kb)
+0002.680 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-uploads.zip.tmp: size is now: 16.20 Mb
+0002.825 (0) Created uploads zip (0) - 16566.2 Kb in 0.2 s (70116.7 Kb/s) (SHA1 checksum: fb5a91e1b87a56e00f004a45b15a8967f3dda62f)
+0002.831 (0) Beginning backup of other directories found in the content directory (index: 0)
+0002.833 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0002.835 (0) Looking for candidates to back up in: /Applications/MAMP/htdocs/MirabelleMakeup/wp-content
+0002.837 (0) finding files: index.php: adding to list (1)
+0002.840 (0) finding files: plugins: skipping: this is the plugins directory
+0002.842 (0) finding files: themes: skipping: this is the themes directory
+0002.844 (0) finding files: updraft: skipping: this is the updraft directory
+0002.846 (0) finding files: upgrade: skipping: excluded by options
+0002.848 (0) finding files: uploads: skipping: this is the uploads directory
+0002.851 (0) finding files: wpbackitup_backups: skipping: excluded by options (glob)
+0002.853 (0) finding files: wpbackitup_restore: adding to list (2)
+0002.859 (0) Total entities for the zip file: 1 directories, 4 files (0 skipped as non-modified), 0 Mb
+0002.867 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-others.zip.tmp: size is now: 0.00 Mb
+0002.875 (0) Created others zip (0) - 1.1 Kb in 0 s (57.4 Kb/s) (SHA1 checksum: fcb427da0e7a627b2016475c65d690d2f36bd654)
+0002.885 (0) Saving backup status to database (elements: 8)
+0002.890 (0) Beginning creation of database dump (WordPress DB)
+0002.905 (0) Table wp_options: Total expected rows (approximate): 140
+0002.990 (0) Table wp_options: Total rows added: 218 in 0.08 seconds
+0002.993 (0) Table wp_options: finishing file (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_options.table.gz - 179.9 Kb)
+0002.999 (0) Table wp_users: Total expected rows (approximate): 5
+0003.006 (0) Table wp_users: Total rows added: 5 in 0.00 seconds
+0003.008 (0) Table wp_users: finishing file (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_users.table.gz - 0.7 Kb)
+0003.016 (0) Table wp_usermeta: Total expected rows (approximate): 68
+0003.024 (0) Table wp_usermeta: Total rows added: 68 in 0.01 seconds
+0003.027 (0) Table wp_usermeta: finishing file (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_usermeta.table.gz - 1.4 Kb)
+0003.036 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0003.043 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0003.046 (0) Table wp_commentmeta: finishing file (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_commentmeta.table.gz - 0.4 Kb)
+0003.054 (0) Table wp_comments: Total expected rows (approximate): 1
+0003.059 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0003.062 (0) Table wp_comments: finishing file (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_comments.table.gz - 0.7 Kb)
+0003.069 (0) Table wp_links: Total expected rows (approximate): 0
+0003.075 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0003.077 (0) Table wp_links: finishing file (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_links.table.gz - 0.4 Kb)
+0003.084 (0) Table wp_postmeta: Total expected rows (approximate): 147
+0003.094 (0) Table wp_postmeta: Total rows added: 147 in 0.01 seconds
+0003.097 (0) Table wp_postmeta: finishing file (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_postmeta.table.gz - 2.5 Kb)
+0003.104 (0) Table wp_posts: Total expected rows (approximate): 92
+0003.194 (0) Table wp_posts: Total rows added: 123 in 0.09 seconds
+0003.198 (0) Table wp_posts: finishing file (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_posts.table.gz - 51.1 Kb)
+0003.205 (0) Table wp_term_relationships: Total expected rows (approximate): 38
+0003.210 (0) Table wp_term_relationships: Total rows added: 38 in 0.00 seconds
+0003.214 (0) Table wp_term_relationships: finishing file (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_term_relationships.table.gz - 0.5 Kb)
+0003.220 (0) Table wp_term_taxonomy: Total expected rows (approximate): 5
+0003.225 (0) Table wp_term_taxonomy: Total rows added: 5 in 0.00 seconds
+0003.228 (0) Table wp_term_taxonomy: finishing file (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_term_taxonomy.table.gz - 0.5 Kb)
+0003.234 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0003.241 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0003.244 (0) Table wp_termmeta: finishing file (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_termmeta.table.gz - 0.4 Kb)
+0003.251 (0) Table wp_terms: Total expected rows (approximate): 5
+0003.258 (0) Table wp_terms: Total rows added: 5 in 0.00 seconds
+0003.260 (0) Table wp_terms: finishing file (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_terms.table.gz - 0.4 Kb)
+0003.268 (0) Table wp_wpbackitup_job_control: Total expected rows (approximate): 6
+0003.276 (0) Table wp_wpbackitup_job_control: Total rows added: 6 in 0.01 seconds
+0003.279 (0) Table wp_wpbackitup_job_control: finishing file (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_wpbackitup_job_control.table.gz - 0.9 Kb)
+0003.285 (0) Table wp_wpbackitup_job_items: Total expected rows (approximate): 3326
+0003.517 (0) Table wp_wpbackitup_job_items: Total rows added: 2839 in 0.23 seconds
+0003.520 (0) Table wp_wpbackitup_job_items: finishing file (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_wpbackitup_job_items.table.gz - 34.8 Kb)
+0003.526 (0) Table wp_wpbackitup_job_tasks: Total expected rows (approximate): 45
+0003.538 (0) Table wp_wpbackitup_job_tasks: Total rows added: 45 in 0.01 seconds
+0003.540 (0) Table wp_wpbackitup_job_tasks: finishing file (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_wpbackitup_job_tasks.table.gz - 1.6 Kb)
+0003.546 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_options.table.gz (1/15): adding to final database dump
+0003.621 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_users.table.gz (2/15): adding to final database dump
+0003.623 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_usermeta.table.gz (3/15): adding to final database dump
+0003.626 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_commentmeta.table.gz (4/15): adding to final database dump
+0003.628 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_comments.table.gz (5/15): adding to final database dump
+0003.631 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_links.table.gz (6/15): adding to final database dump
+0003.633 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_postmeta.table.gz (7/15): adding to final database dump
+0003.637 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_posts.table.gz (8/15): adding to final database dump
+0003.709 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_term_relationships.table.gz (9/15): adding to final database dump
+0003.712 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_term_taxonomy.table.gz (10/15): adding to final database dump
+0003.715 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_termmeta.table.gz (11/15): adding to final database dump
+0003.718 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_terms.table.gz (12/15): adding to final database dump
+0003.720 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_wpbackitup_job_control.table.gz (13/15): adding to final database dump
+0003.722 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_wpbackitup_job_items.table.gz (14/15): adding to final database dump
+0003.755 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db-table-wp_wpbackitup_job_tasks.table.gz (15/15): adding to final database dump
+0003.759 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db.gz: finished writing out complete database file (248 Kb)
+0003.769 (0) Total database tables backed up: 15 (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db.gz, size: 281066, checksum (SHA1): cf30ac14d6e3dd71ff49fbc73e0236ee5a1eb0fa)
+0003.780 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0003.782 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0003.784 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0003.787 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-others.zip: others: This file has not yet been successfully uploaded: will queue
+0003.789 (0) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db.gz: db: This file has not yet been successfully uploaded: will queue
+0003.792 (0) Saving backup history. Total backup size: 32.9 Mb
+0003.797 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0003.804 (0) Cloud backup selection (1/1): dropbox (last)
+0003.806 (0) Beginning dispatch of backup to remote (dropbox)
+0003.809 (0) Dropbox: begin cloud upload
+0003.812 (0) You do not appear to be authenticated with Dropbox
+0003.815 (0) An error condition has occurred for the first time during this job
+0003.821 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0003.824 (0) Number of backup sets in history: 2; groups (db): 1
+0003.826 (0) Examining (for databases) backup set with group_id=0, nonce=206d5c7ab381, datestamp=1456021782 (Feb 21 2016 02:29:42)
+0003.828 (0) This backup set is the backup set just made, so will not be deleted.
+0003.830 (0) Examining (for databases) backup set with group_id=0, nonce=3adf1fdb200a, datestamp=1456021745 (Feb 21 2016 02:29:05)
+0003.833 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0003.835 (0) Number of backup sets in history: 2; groups (files): 1
+0003.837 (0) Examining (for files) backup set with nonce=206d5c7ab381, datestamp=1456021782 (Feb 21 2016 02:29:42)
+0003.840 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0003.842 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0003.842 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0003.843 (0) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0003.843 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0003.845 (0) Examining (for files) backup set with nonce=3adf1fdb200a, datestamp=1456021745 (Feb 21 2016 02:29:05)
+0003.847 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0003.850 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0003.856 (0) Resume backup (206d5c7ab381, 0): finish run
+0003.862 (0) Decremented the semaphore (fd) by 1
+0003.866 (0) Semaphore (fd) unlocked
+0003.868 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0003.875 (0) Rescheduling resumption 1: moving to 120 seconds from now (1456021906)
+0003.880 (0) No email will/can be sent - the user has not configured an email address.
+0003.882 (0) The backup has not finished; a resumption is scheduled
+0166.803 (1) Opened log file at time: Sun, 21 Feb 2016 02:32:28 +0000 on http://localhost:8888/MirabelleMakeup
+0166.806 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.6.10 (Darwin Erikas-MacBook-Pro.local 14.5.0 Darwin Kernel Version 14.5.0: Wed Jul 29 02:26:53 PDT 2015; root:xnu-2782.40.9~1/RELEASE_X86_64 x86_64) MySQL: 5.5.42 Server: Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 21.1M | 21.3M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0166.809 (1) Free space on disk containing Updraft's temporary directory: 22880.6 Mb
+0166.813 (1) Backup run: resumption=1, nonce=206d5c7ab381, begun at=1456021782 (166s ago), job type=backup, previous check-in=3.5s
+0166.818 (1) Scheduling a resumption (2) after 300 seconds (1456022248) in case this run gets aborted
+0166.832 (1) Checking if we have a zip executable available
+0166.834 (1) Zip engine: found/will use a binary zip: /usr/bin/zip
+0166.836 (1) Creation of backups of directories: already finished
+0166.839 (1) Saving backup status to database (elements: 8)
+0166.844 (1) Database dump (WordPress DB): Creation was completed already
+0166.852 (1) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0166.854 (1) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0166.856 (1) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0166.858 (1) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-others.zip: others: This file has not yet been successfully uploaded: will queue
+0166.860 (1) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db.gz: db: This file has not yet been successfully uploaded: will queue
+0166.862 (1) Saving backup history. Total backup size: 32.9 Mb
+0166.867 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0166.872 (1) Cloud backup selection (1/1): dropbox (last)
+0166.879 (1) Beginning dispatch of backup to remote (dropbox)
+0166.881 (1) Dropbox: begin cloud upload
+0166.883 (1) You do not appear to be authenticated with Dropbox
+0166.885 (1) An error condition has occurred for the first time during this job
+0166.891 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0166.894 (1) Number of backup sets in history: 2; groups (db): 1
+0166.896 (1) Examining (for databases) backup set with group_id=0, nonce=206d5c7ab381, datestamp=1456021782 (Feb 21 2016 02:29:42)
+0166.898 (1) This backup set is the backup set just made, so will not be deleted.
+0166.900 (1) Examining (for databases) backup set with group_id=0, nonce=3adf1fdb200a, datestamp=1456021745 (Feb 21 2016 02:29:05)
+0166.903 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0166.905 (1) Number of backup sets in history: 2; groups (files): 1
+0166.907 (1) Examining (for files) backup set with nonce=206d5c7ab381, datestamp=1456021782 (Feb 21 2016 02:29:42)
+0166.909 (1) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0166.911 (1) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0166.912 (1) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0166.912 (1) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0166.913 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0166.915 (1) Examining (for files) backup set with nonce=3adf1fdb200a, datestamp=1456021745 (Feb 21 2016 02:29:05)
+0166.917 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0166.920 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0166.926 (1) Resume backup (206d5c7ab381, 1): finish run
+0166.930 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0166.934 (1) No email will/can be sent - the user has not configured an email address.
+0166.936 (1) The backup has not finished; a resumption is scheduled
+0519.565 (2) Opened log file at time: Sun, 21 Feb 2016 02:38:21 +0000 on http://localhost:8888/MirabelleMakeup
+0519.573 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.6.10 (Darwin Erikas-MacBook-Pro.local 14.5.0 Darwin Kernel Version 14.5.0: Wed Jul 29 02:26:53 PDT 2015; root:xnu-2782.40.9~1/RELEASE_X86_64 x86_64) MySQL: 5.5.42 Server: Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 21.1M | 21.3M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0519.587 (2) Free space on disk containing Updraft's temporary directory: 22932.7 Mb
+0519.608 (2) Backup run: resumption=2, nonce=206d5c7ab381, begun at=1456021782 (519s ago), job type=backup
+0519.639 (2) Scheduling a resumption (3) after 300 seconds (1456022601) in case this run gets aborted
+0519.689 (2) Checking if we have a zip executable available
+0519.703 (2) Zip engine: found/will use a binary zip: /usr/bin/zip
+0519.707 (2) Creation of backups of directories: already finished
+0519.713 (2) Saving backup status to database (elements: 8)
+0519.734 (2) Database dump (WordPress DB): Creation was completed already
+0519.755 (2) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0519.765 (2) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0519.769 (2) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0519.773 (2) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-others.zip: others: This file has not yet been successfully uploaded: will queue
+0519.790 (2) backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db.gz: db: This file has not yet been successfully uploaded: will queue
+0519.807 (2) Saving backup history. Total backup size: 32.9 Mb
+0519.828 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+0519.839 (2) Cloud backup selection (1/1): dropbox (last)
+0519.856 (2) Beginning dispatch of backup to remote (dropbox)
+0519.864 (2) Dropbox: begin cloud upload
+0519.907 (2) Dropbox: access gained
+0520.491 (2) Dropbox quota usage: normal=1006 Mb, shared=217.5 Mb, total=2304 Mb, available=1080.6 Mb
+0520.494 (2) Dropbox: Attempt to upload: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-plugins.zip to: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-plugins.zip
+0523.447 (2) Dropbox chunked upload: 17.4 % uploaded (AAAAAAAABzkF8V_kp03mbQ, 1048576)
+0526.444 (2) Dropbox chunked upload: 34.7 % uploaded (AAAAAAAABzkF8V_kp03mbQ, 2097152)
+0530.088 (2) Dropbox chunked upload: 52.1 % uploaded (AAAAAAAABzkF8V_kp03mbQ, 3145728)
+0533.416 (2) Dropbox chunked upload: 69.5 % uploaded (AAAAAAAABzkF8V_kp03mbQ, 4194304)
+0535.722 (2) Dropbox chunked upload: 86.8 % uploaded (AAAAAAAABzkF8V_kp03mbQ, 5242880)
+0540.919 (2) Dropbox chunked upload: 100 % uploaded (AAAAAAAABzkF8V_kp03mbQ, 6037396)
+0543.945 (2) Recording as successfully uploaded: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-plugins.zip (d2cf6329f6ab0ed36f208026f6eea69f)
+0543.955 (2) Deleting local file: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-plugins.zip: OK
+0543.957 (2) Dropbox: File upload success (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-plugins.zip): 5895 Kb in 23s (251 Kb/s)
+0545.181 (2) Dropbox quota usage: normal=1027.9 Mb, shared=217.5 Mb, total=2304 Mb, available=1058.6 Mb
+0545.185 (2) Dropbox: Attempt to upload: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-themes.zip to: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-themes.zip
+0551.906 (2) Dropbox chunked upload: 9.3 % uploaded (AAAAAAAABzoN4rXnGegsBw, 1048576)
+0554.855 (2) Dropbox chunked upload: 18.7 % uploaded (AAAAAAAABzoN4rXnGegsBw, 2097152)
+0558.291 (2) Dropbox chunked upload: 28 % uploaded (AAAAAAAABzoN4rXnGegsBw, 3145728)
+0561.558 (2) Dropbox chunked upload: 37.3 % uploaded (AAAAAAAABzoN4rXnGegsBw, 4194304)
+0563.717 (2) Dropbox chunked upload: 46.7 % uploaded (AAAAAAAABzoN4rXnGegsBw, 5242880)
+0566.791 (2) Dropbox chunked upload: 56 % uploaded (AAAAAAAABzoN4rXnGegsBw, 6291456)
+0569.863 (2) Dropbox chunked upload: 65.3 % uploaded (AAAAAAAABzoN4rXnGegsBw, 7340032)
+0573.258 (2) Dropbox chunked upload: 74.7 % uploaded (AAAAAAAABzoN4rXnGegsBw, 8388608)
+0575.268 (2) Dropbox chunked upload: 84 % uploaded (AAAAAAAABzoN4rXnGegsBw, 9437184)
+0578.039 (2) Dropbox chunked upload: 93.3 % uploaded (AAAAAAAABzoN4rXnGegsBw, 10485760)
+0582.567 (2) Dropbox chunked upload: 100 % uploaded (AAAAAAAABzoN4rXnGegsBw, 11233790)
+0585.095 (2) Recording as successfully uploaded: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-themes.zip (59f61ae3be3d6abe0b08d7b8856057bc)
+0585.106 (2) Deleting local file: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-themes.zip: OK
+0585.108 (2) Dropbox: File upload success (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-themes.zip): 10970 Kb in 39s (274 Kb/s)
+0586.358 (2) Dropbox quota usage: normal=1038.6 Mb, shared=217.5 Mb, total=2304 Mb, available=1047.9 Mb
+0586.361 (2) Dropbox: Attempt to upload: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-uploads.zip to: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-uploads.zip
+0588.297 (2) Dropbox chunked upload: 6.2 % uploaded (AAAAAAAABzufGKECgpkOIg, 1048576)
+0591.205 (2) Dropbox chunked upload: 12.4 % uploaded (AAAAAAAABzufGKECgpkOIg, 2097152)
+0594.437 (2) Dropbox chunked upload: 18.5 % uploaded (AAAAAAAABzufGKECgpkOIg, 3145728)
+0595.977 (2) Opened log file at time: Sun, 21 Feb 2016 02:39:38 +0000 on http://localhost:8888/MirabelleMakeup
+0595.980 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.11.27 WP: 4.4.2 PHP: 5.6.10 (Darwin Erikas-MacBook-Pro.local 14.5.0 Darwin Kernel Version 14.5.0: Wed Jul 29 02:26:53 PDT 2015; root:xnu-2782.40.9~1/RELEASE_X86_64 x86_64) MySQL: 5.5.42 Server: Apache/2.2.29 (Unix) mod_wsgi/3.5 Python/2.7.10 PHP/5.6.10 mod_ssl/2.2.29 OpenSSL/0.9.8zg DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.22.0 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 21.1M | 21.5M) multisite: N mcrypt: Y LANG:  ZipArchive::addFile: Y
+0595.983 (2) Free space on disk containing Updraft's temporary directory: 22964.2 Mb
+0595.986 (2) It looks like WordPress's scheduler has started multiple instances of this resumption
+0595.995 (2) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1456022376.6, time_now=1456022378.2, diff=1, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+0595.998 (2) A new resumption will be scheduled to prevent the job ending
+0596.001 (2) Rescheduling resumption 3: moving to 300 seconds from now (1456022678)
+0596.006 (2) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 0 = 300
+0602.429 (2) Dropbox chunked upload: 24.7 % uploaded (AAAAAAAABzufGKECgpkOIg, 4194304)
+0604.610 (2) Dropbox chunked upload: 30.9 % uploaded (AAAAAAAABzufGKECgpkOIg, 5242880)
+0610.627 (2) Dropbox chunked upload: 37.1 % uploaded (AAAAAAAABzufGKECgpkOIg, 6291456)
+0614.199 (2) Dropbox chunked upload: 43.3 % uploaded (AAAAAAAABzufGKECgpkOIg, 7340032)
+0617.479 (2) Dropbox chunked upload: 49.5 % uploaded (AAAAAAAABzufGKECgpkOIg, 8388608)
+0619.425 (2) Dropbox chunked upload: 55.6 % uploaded (AAAAAAAABzufGKECgpkOIg, 9437184)
+0627.443 (2) Dropbox chunked upload: 61.8 % uploaded (AAAAAAAABzufGKECgpkOIg, 10485760)
+0630.991 (2) Dropbox chunked upload: 68 % uploaded (AAAAAAAABzufGKECgpkOIg, 11534336)
+0634.666 (2) Dropbox chunked upload: 74.2 % uploaded (AAAAAAAABzufGKECgpkOIg, 12582912)
+0636.887 (2) Dropbox chunked upload: 80.4 % uploaded (AAAAAAAABzufGKECgpkOIg, 13631488)
+0639.902 (2) Dropbox chunked upload: 86.5 % uploaded (AAAAAAAABzufGKECgpkOIg, 14680064)
+0645.072 (2) Dropbox chunked upload: 92.7 % uploaded (AAAAAAAABzufGKECgpkOIg, 15728640)
+0648.443 (2) Dropbox chunked upload: 98.9 % uploaded (AAAAAAAABzufGKECgpkOIg, 16777216)
+0649.857 (2) Dropbox chunked upload: 100 % uploaded (AAAAAAAABzufGKECgpkOIg, 16963794)
+0651.323 (2) Recording as successfully uploaded: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-uploads.zip (0cb18cc8300637da5aca982f2718c7ba)
+0651.332 (2) Deleting local file: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-uploads.zip: OK
+0651.334 (2) Dropbox: File upload success (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-uploads.zip): 16566 Kb in 64s (254 Kb/s)
+0652.350 (2) Dropbox quota usage: normal=1054.8 Mb, shared=217.5 Mb, total=2304 Mb, available=1031.7 Mb
+0652.353 (2) Dropbox: Attempt to upload: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-others.zip to: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-others.zip
+0652.944 (2) Dropbox chunked upload: 100 % uploaded (AAAAAAAABzxNCZUSMWTE_w, 1110)
+0654.282 (2) Recording as successfully uploaded: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-others.zip (5a6d900a6aed141816b6c0023cd5010a)
+0654.291 (2) Deleting local file: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-others.zip: OK
+0654.293 (2) Dropbox: File upload success (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-others.zip): 1 Kb in 1s (0 Kb/s)
+0654.853 (2) Dropbox quota usage: normal=1054.8 Mb, shared=217.5 Mb, total=2304 Mb, available=1031.7 Mb
+0654.855 (2) Dropbox: Attempt to upload: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db.gz to: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db.gz
+0656.264 (2) Dropbox chunked upload: 100 % uploaded (AAAAAAAABz0Be_KvAnbM9w, 281066)
+0657.510 (2) Recording as successfully uploaded: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db.gz (f8224261a519ae2ed0ab20cfcec62d68)
+0657.519 (2) Deleting local file: backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db.gz: OK
+0657.522 (2) Dropbox: File upload success (backup_2016-02-21-0229_Mirabelle_Makeup_206d5c7ab381-db.gz): 274 Kb in 2s (102 Kb/s)
+0657.529 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0657.534 (2) Number of backup sets in history: 2; groups (db): 1
+0657.537 (2) Examining (for databases) backup set with group_id=0, nonce=4c5981ac9a23, datestamp=1456022010 (Feb 21 2016 02:33:30)
+0657.539 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0657.541 (2) Examining (for databases) backup set with group_id=0, nonce=206d5c7ab381, datestamp=1456021782 (Feb 21 2016 02:29:42)
+0657.543 (2) This backup set is the backup set just made, so will not be deleted.
+0657.546 (2) Number of backup sets in history: 2; groups (files): 1
+0657.548 (2) Examining (for files) backup set with nonce=4c5981ac9a23, datestamp=1456022010 (Feb 21 2016 02:33:30)
+0657.550 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0657.552 (2) Examining (for files) backup set with nonce=206d5c7ab381, datestamp=1456021782 (Feb 21 2016 02:29:42)
+0657.555 (2) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0657.558 (2) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0657.558 (2) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0657.559 (2) This backup set is the backup set just made, so will not be deleted, despite being over the retain limit.
+0657.559 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0657.562 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0657.567 (2) Resume backup (206d5c7ab381, 2): finish run
+0657.572 (2) There were no errors in the uploads, so the 'resume' event (3) is being unscheduled
+0657.579 (2) No email will/can be sent - the user has not configured an email address.
+0657.581 (2) The backup apparently succeeded and is now complete
